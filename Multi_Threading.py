@@ -1,3 +1,5 @@
+# Designed to work separately =)
+ 
 from threading import Thread, Lock, current_thread
 from queue import Queue
 import time
@@ -25,9 +27,7 @@ if __name__ == "__main__":
     for thread in threads:
         thread.join()
         
-        
-# Designed to work separately =)
-        
+#===============================================================================================================================       
         
 # all threads can access this global variable
 database_value = 0
@@ -66,9 +66,7 @@ if __name__ == "__main__":
 
     print('end main')
     
-    
-# Designed to work separately =)
-
+#===============================================================================================================================
 
 def worker(q, lock):
     while True:

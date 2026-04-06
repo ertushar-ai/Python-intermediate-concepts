@@ -1,3 +1,5 @@
+# Designed to work separately =)
+
 from multiprocessing import Process, Value, Array, Lock, Queue
 import os
 import time
@@ -26,9 +28,7 @@ if __name__ == "__main__":
     for process in processes:
         process.join()
         
-        
 # Designed to work separately =)
-
 
 def add_100(number,lock):
     for _ in range(100):
@@ -75,7 +75,6 @@ if __name__ == "__main__":
 
     print('end main')
     
-    
 # Designed to work separately =)
 
 def square(numbers, queue):
@@ -106,9 +105,7 @@ if __name__ == "__main__":
         
     print('end main')
     
-    
 # Designed to work separately =)
-
 
 from multiprocessing import Pool 
 

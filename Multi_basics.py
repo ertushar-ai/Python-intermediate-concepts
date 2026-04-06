@@ -1,3 +1,5 @@
+# Designed to work separately =)
+
 from multiprocessing import Process
 from threading import Thread
 import os
@@ -30,9 +32,7 @@ if __name__ == '__main__':
 
     print("Processing Complete")
 
-
-# Designed to be executed separately =)
-
+# Designed to work separately =)
 
 def square_num():
     for i in range(100):
