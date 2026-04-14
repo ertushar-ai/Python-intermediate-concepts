@@ -21,7 +21,7 @@ To build a strong foundation in Python and apply these concepts to real-world pr
 ## 🚀 Next Step
 Applying these concepts in projects like my **Smart Learning App** 👇  
 
-👉 https://github.com/ertushar-ai/smart-learning-app  
+👉 https://github.com/ertushar-ai/Smart-learning-app.git  
 
 ## 📌 Note
 This repository is focused on learning and understanding concepts.  
